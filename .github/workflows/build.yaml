@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: '16.20.1'
       - name: Create package.json
-       run: echo '{"name": "your-project-name", "version": "1.0.0", "scripts": {"dev": "webpack --config=Scripts/config/webpack.dev.js --watch", "build": "webpack --config=Scripts/config/webpack.prod.js", "test": "echo \"Error: no test specified\" && exit 1"}}' > package.json
+        run: echo '{"name": "your-project-name", "version": "1.0.0", "scripts": {"dev": "webpack --config=Scripts/config/webpack.dev.js --watch", "build": "webpack --config=Scripts/config/webpack.prod.js", "test": "echo \"Error: no test specified\" && exit 1"}}' > package.json
       - name: Check Node v
         run: node -v
 
