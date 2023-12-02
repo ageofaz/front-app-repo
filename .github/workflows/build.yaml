@@ -17,7 +17,7 @@ jobs:
 
       - name: Build front
         run: |
-          npm install -g npm
+          npm install
           npm cache clean -f
           npm run build
 
