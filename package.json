@@ -1,12 +1,20 @@
 {
   "name": "amazon-eks-frontend",
   "version": "1.0.0",
-  "description": "",
+  "description": "eks",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "ageofaz",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ageofaz/front-app-repo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ageofaz/front-app-repo/issues"
+  },
+  "homepage": "https://github.com/ageofaz/front-app-repo#readme"
 }
